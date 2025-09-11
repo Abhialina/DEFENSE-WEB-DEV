@@ -1,0 +1,81 @@
+/* h1{
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+} */
+/* h2{
+    color: red;
+    background-color: aliceblue;
+} */
+ul{
+    color: green;
+}
+
+#first{
+    color: aquamarine;
+    background-color: black;
+}
+#sec{
+    color: blueviolet;
+    background-color: pink;
+}
+
+.third{
+    background-color: greenyellow;
+}
+
+h1, .fourth{
+    background-color: blanchedalmond;
+    text-align: center;
+    color: blue;
+}
+h1{
+    background-color: rgba(0, 255, 55, 0.581);  
+}
+
+    /* 0.581 for transpirancyn */
+
+h2{
+    /* background-color: hsla(hue, saturation, lightness, transpirancy); */
+    background-color: hsla(129, 94%, 49%, 0.5);
+    text-align: center;
+}
+li{
+    color: #e72897;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+
+ul{
+    font-size: 20px;
+}
+li{
+    font-size: 1em;
+}
+html{
+    font-size: 50px;
+}
+h1{
+    font-size: 1rem;
+}
+h3{
+    font-size: 2vw;
+    text-align: end;
+}
+ol{
+    font-size: 20px;
+}
+li{
+    font-size: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-weight: 900;
+    font-style: italic;
+}

@@ -1,0 +1,38 @@
+h1{
+    background-color: pink;
+}
+
+
+h2{
+    background-color: green;
+}
+h2{
+    background-color: blueviolet;
+}
+
+h3{
+    background-color: aqua;
+}
+#firstID{
+    background-color: blue;
+}
+
+.classA{
+    background-color: green;
+
+ }
+
+ ul{
+    background-color: orange !important;
+ }
+
+ h4{
+    background-color: aqua;
+    /* position: static;    ye default rhta hai */
+    position: relative;
+    left: 50px;
+    /* top: 100px; */
+    bottom: 30px;
+    right: 10px;
+ }
+
