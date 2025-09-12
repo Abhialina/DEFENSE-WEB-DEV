@@ -1,0 +1,54 @@
+.container{
+    background-color: white;
+    height: 400px;
+
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* justify content main axis ke around kaam krta hai
+        main axis decide karega flex direction*/
+
+    /* align items works around cross axis  */
+    /* align-items: end; */
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 5px;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+}
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    flex-basis: 200px;
+    /* override previous  height = 100px*/
+}
+.sec{
+    background-color: pink;
+    flex-grow: 2;
+}
+.third{
+    background-color: red;
+    /* flex-grow: 3; */
+    /* flex-shrink: 4; */
+    align-self: flex-start;
+}
+.fourth{
+    background-color: green;
+    flex-grow: 3;
+}

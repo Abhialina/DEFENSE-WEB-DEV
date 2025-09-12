@@ -1,0 +1,34 @@
+#container{
+    background-color: #FF671F;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    border-radius: 30px;
+}
+.box{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+}
+
+.first{
+    background-color: white;
+    top: 100px;
+}
+.sec{
+    background-color: #046A38;
+    bottom: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+#ashok{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+}
