@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development HTML Notes</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <br>
+        <a href="lec-1.html">Lecture-1</a>
+        <br>
+        <a href="lec-2.html">Lecture-2</a>
+        <br>
+        <a href="lec-3.html">Lecture-3</a>
+        <br>
+        <a href="lec-4.html">Lecture-4</a>
+        <br>
+        <a href="lec-5.html">Lecture-5</a>
+    </header>
+    <main>
+        <h1>WEB DEVELOPMENT- HTML NOTES</h1>
+        <hr>
+
+        <h1>Networking & Internet</h1>
+
+        <h2>1. Basic Network Concept</h2>
+        <p>When two computers are connected, they use IP addresses to communicate. Routers forward packets between
+            networks. Protocols like TCP/IP ensure proper data transfer.</p>
+        <p>Eg.-</p>
+        <img src="images/1.png" alt="Basic connection" height="200px" width="400px">
+
+        <h2>2. ISP & IP Address</h2>
+        <p>Internet Service Providers (ISP) assign IP addresses to devices. IP addresses are of two main versions:</p>
+        <ul>
+            <li><b>IPv4:</b> 32-bit, e.g. 192.168.1.1</li>
+            <li><b>IPv6:</b> 128-bit, e.g. 2001:0db8:85a3::8a2e:0370:7334</li>
+        </ul>
+        <img src="diagram_crops/diagram_2.png" alt="IP Address diagram">
+
+        <h2>3. Ports</h2>
+        <p>Ports are used to identify specific processes/services on a device.</p>
+        <table border="1">
+            <tr>
+                <th>Port Range</th>
+                <th>Type</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>0–1023</td>
+                <td>Well-known</td>
+                <td>80=HTTP, 443=HTTPS, 22=SSH</td>
+            </tr>
+            <tr>
+                <td>1024–49151</td>
+                <td>Registered</td>
+                <td>3000=React, 3306=MySQL</td>
+            </tr>
+            <tr>
+                <td>49152–65535</td>
+                <td>Dynamic</td>
+                <td>Temporary client ports</td>
+            </tr>
+        </table>
+        <img src="diagram_crops/diagram_3.png" alt="Port diagram">
+
+        <h2>4. MAC Address</h2>
+        <p>MAC address is the unique hardware ID of a network card (48-bit). Works within LAN to forward packets.</p>
+        <img src="diagram_crops/diagram_4.png" alt="MAC address and routers">
+
+        <h2>5. Private & Public IP</h2>
+        <p>Private IPs are used inside local networks, while Public IPs are globally unique.</p>
+        <ul>
+            <li>10.0.0.0 – 10.255.255.255</li>
+            <li>172.16.0.0 – 172.31.255.255</li>
+            <li>192.168.0.0 – 192.168.255.255</li>
+        </ul>
+        <img src="diagram_crops/diagram_5.png" alt="Private vs Public IP">
+
+        <h2>6. Routers & ISP</h2>
+        <p>Routers connect multiple networks. ISPs provide internet connection and allocate public IPs. Autonomous
+            Systems (AS) manage large routing blocks.</p>
+        <img src="diagram_crops/diagram_6.png" alt="Router & ISP diagram">
+
+        <h2>7. Request-Response Model</h2>
+        <p>Client sends request (HTTP/HTTPS) → Server processes → Response sent back (HTML, JSON, etc).</p>
+        <img src="diagram_crops/diagram_7.png" alt="Request response diagram">
+
+        <h2>8. MERN Stack</h2>
+        <p>MERN stack consists of:</p>
+        <ul>
+            <li><b>MongoDB</b> – Database</li>
+            <li><b>Express.js</b> – Backend framework</li>
+            <li><b>React.js</b> – Frontend framework</li>
+            <li><b>Node.js</b> – Server runtime</li>
+        </ul>
+        <img src="diagram_crops/diagram_8.png" alt="MERN Stack diagram">
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <button><a href="index.html">Home Page</a></button>
+        <button><a href="lec-1.html">Next Page</a></button>
+
+        <br><br>
+        <h3>NOTE: Here's the main video source of these Notes.</h3>
+
+        <iframe src="https://www.youtube.com/embed/1pcikNlDB-4?si=kYbMXCO_9_TNXHlG"></iframe>
+    </footer>
+</body>
+</html>

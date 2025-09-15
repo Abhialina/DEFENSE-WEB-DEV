@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+body{
+    background-color: black;
+}
+.container{
+    /* padding: 10px; */
+    display: grid;
+    /* grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px; */
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: aqua;
+    gap: 10px;
+
+    height: 400px;
+    width: 400px;
+}
+.first{
+    background-color: pink;
+}
+.sec{
+    background-color: red;
+}
+.third{
+    background-color: green;
+}
+.fourth{
+    background-color: blue;
+}
