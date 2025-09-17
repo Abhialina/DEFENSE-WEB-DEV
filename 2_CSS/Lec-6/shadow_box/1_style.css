@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-shadow: 20px 20px 10px pink; /*x = 10px, y = 10px, shadow_blur = 5px, color */
+
+    /* box-shadow: 0px 0px 0px 20px green;  //x = 0, y = 0, blur_radius = 0px, spread-radius = 20px, color--// */
+
+    box-shadow: inset 10px 10px 10px green;
+} 
