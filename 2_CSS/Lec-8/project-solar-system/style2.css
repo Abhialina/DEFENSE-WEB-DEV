@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 800px;
+    width: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    
+}
+.orbit-mer{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: mercury 3s linear infinite;
+}
+
+.mer{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}
+
+@keyframes mercury{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    /*For making 3D we use perspective to parent*/
+    perspective: 800px;
+}
+
+.box{
+    font-size: 50px;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    cursor: pointer;
+    /* transition: all 1s linear 0s; */
+
+    transition: all 2s;
+
+    /* transform: translateX(200px); */
+
+    /* transform: rotate(45deg); */
+
+    /* transform: skew(30deg); */
+}
+
+.box:hover{
+    /* background-color: red;
+    width: 200px;
+    height: 200px; */
+
+    /* transform: scale(2 );     */
+
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+
+    /* transform: translate(100px, 200px); */
+    /* transform: translateX(100px); */
+
+    /* transform: rotate(45deg); */
+
+    /* ab 3D use kr skte hai kyuki parent ko perspective 800px de diye hai*/
+    /* transform: translateZ(200px); */
+
+    transform: rotateX(180deg);
+
+    transform: rotateY(180deg);
+}
