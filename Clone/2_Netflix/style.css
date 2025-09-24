@@ -3,8 +3,35 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    /* background: url(./netflix-login-background.jpg); */
+    background-size: cover;
+}
 
-.header{
-    display: grid;
+.name{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.name img{
+    height: 40px;
+    width: 100%;
+    /* margin-left: 50px; */
+}
+
+.heading{
+    background-color: aqua;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.right-head{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: end;
     
 }

@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-</head>
-<body>
-    <div class="container">
-        <div class="box">
-            <h1>Sign In</h1>
-            <div class="container-1">
-                <div class="sign-in">
-                    <input type="text" placeholder="Email or mobile number">
-                    <input type="password" placeholder="Password">
-                    <button>Sign In</button>
-                    <h3>OR</h3>
-                    <button>Use a sign-in code</button>
-                    <a href="">forgot password?</a>
-                </div>
-                
-                <input type="checkbox" name="" id="">
-                <p>New to Netflix?</p>
-                <a href="">Sign Up Now.</a>
+    <link rel="icon" href="./netflix-icon.png" type="image/x-icon">
 
-                <p>This page is protected by Google 
-                    reCAPTCHA to ensure you're not a bot.</p>
-                <a href="">Learn more.</a>
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+
+<body>
+    <div class="header">
+        <!-- <h3>NETFLIX</h3> -->
+        <a href=""><img src="./netflix-logo.png" alt="netflix-logo"></a>
+    </div>
+    <div class="container">
+        <div class="sign">
+            <h1>Sign In</h1>
+            <div class="sign-content">
+                <div class="input-id">
+                    <input type="text" placeholder="Email or Phone Number">
+                </div>
+                <div class="input-id">
+                    <input type="password" placeholder="Password">
+                </div>
+                <a href=""><button class="sign-in">Sing In</button></a>
+                <p>OR</p>
+                <a href=""><button class="code">Use a Sign In Code</button></a>
+                <div class="forgot"><a href="#">Forgot Password?</a></div>
             </div>
+            <div class="check">
+                <input type="checkbox" class="checkbox">
+                <p>Remember Me</p>
+            </div>
+            <div class="check1">
+                <p>New to Netflix?</p>
+                <a href="">Sign Up now.</a>
+            </div>
+            <div class="captcha">
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+
+        <div class="footer">
+
         </div>
     </div>
 </body>
+
 </html>
